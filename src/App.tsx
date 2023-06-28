@@ -10,6 +10,7 @@ import InputTextArea from './components/Widgets/InputTextArea';
 import RadioButton from './components/Widgets/RadioButton';
 import SwitchButton from './components/Widgets/SwitchButton';
 import './App.css';
+import AutosComponent from './components/AutoComponent/AutoComponent';
 
 const options = [
   { label: "Option 1", value: "opcion 1" },
@@ -129,6 +130,9 @@ const App: React.FC = () => {
           <p>Switch state: {switchState ? "ON" : "OFF"}</p>
         </div>
       </div>
+      <div className="App">
+      <AutosComponent />
+    </div>
     </div>
   );
 };
