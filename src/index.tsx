@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Ejercicio2 from './Ejercicio2';
-import Galery from './components/RendCondiciona.tsx/EjeImagen';
-import Ejercicio3 from './Ejercicio3';
 
 
 const root = ReactDOM.createRoot(

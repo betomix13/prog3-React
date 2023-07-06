@@ -1,33 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import AutosComponent from "./components/AutoComponent/AutoComponent";
 import Escuela from './components/Escuela/Escuela';
 import './Ejercicio2.css';
 import CuentaBancaria from "./components/Banco/CuentaBancaria";
+import Figuras from "./components/Figuras/Figuras";
 /*import { RectanguloComponent, CirculoComponent } from './components/Figuras/Figuras';*/
 const Ejercicio2: React.FC = () => {
   
-  const rectangulo = {
-    base: 5,
-    altura: 3,
-    calcularArea: () => {
-      return 5 * 3;
-    },
-    calcularPerimetro: () => {
-      return 2 * (5 + 3);
-    },
-  };
-
-  const circulo = {
-    radio: 2,
-    calcularArea: () => {
-      return Math.PI * Math.pow(2, 2);
-    },
-    calcularPerimetro: () => {
-      return 2 * Math.PI * 2;
-    },
-  };
-
-
   return <div>
     <div className="App">
     <h1>Ejercicio 1</h1>
@@ -40,6 +19,10 @@ const Ejercicio2: React.FC = () => {
     <div>
       <h1>Ejercicio 3</h1>
       <CuentaBancaria inicial={1000000} />
+    </div>
+    <div>
+      <h1>Ejercicio4</h1>
+      <Figuras/>
     </div>
     <div>
       
