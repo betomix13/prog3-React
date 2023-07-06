@@ -36,7 +36,7 @@ const CuentaBancaria: React.FC<CuentaBancariaProps> = ({ inicial }) => {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h2>Cuenta Bancaria</h2>
       <p>Fondos disponibles: {fondos}</p>
 

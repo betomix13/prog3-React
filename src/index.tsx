@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Ejercicio2 from './Ejercicio2';
+import Galery from './components/RendCondiciona.tsx/EjeImagen';
+import Ejercicio3 from './Ejercicio3';
 
 
 const root = ReactDOM.createRoot(
@@ -11,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Ejercicio2 />
+    <Ejercicio3 />
   </React.StrictMode>
   
 );

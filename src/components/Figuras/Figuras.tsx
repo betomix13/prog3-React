@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 
 interface FormaGeometrica {
   calcularArea: () => number;
@@ -51,4 +51,4 @@ export const CirculoComponent: React.FC<Circulo> = ({ radio }) => {
       <p>Perímetro: {calcularPerimetro()}</p>
     </div>
   );
-};*/
+};
