@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Ejercicio3 />
+    <Ejercicio2 />
   </React.StrictMode>
   
 );

@@ -15,7 +15,7 @@ const CuentaBancaria: React.FC<CuentaBancariaProps> = ({ inicial }) => {
       dispararAlarma('Asignación de fondos excesiva');
     } else {
       setFondos(fondos + monto);
-      setMontoIngresar('');
+      setMontoIngresar(montoIngresar);
     }
   };
 
@@ -27,7 +27,7 @@ const CuentaBancaria: React.FC<CuentaBancariaProps> = ({ inicial }) => {
       dispararAlarma('Retiro de fondos excesivo');
     } else {
       setFondos(fondos - monto);
-      setMontoRetirar('');
+      setMontoRetirar(montoRetirar);
     }
   };
 
