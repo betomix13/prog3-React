@@ -28,11 +28,10 @@ const Ejercicio3: React.FC = () => {
       </div>
       <div>
       <h1>Galería de imágenes</h1>
-      <div className="galeria">
-        {/* Renderizar las imágenes */}
-        <Imagen src="/img/imagen1.jpg" alt="Imagen 1" />
-        <Imagen src="/img/imagen2.jpg" alt="Imagen 2" />
-        <Imagen src="/img/imagen3.jpg" alt="Imagen 3" />
+      <div className="galeria" >
+        <Imagen src="./img/imagen1.jpg" alt="Imagen 1" />
+        <Imagen src="./img/imagen2.jpg" alt="Imagen 2" />
+        <Imagen src="./img/imagen3.jpg" alt="Imagen 3" />
       </div>
       
     </div>
